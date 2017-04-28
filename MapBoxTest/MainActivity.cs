@@ -18,7 +18,7 @@ namespace MapBoxTest
         {
             base.OnCreate(bundle);
             MapboxAccountManager.Start(this, "MapBox Goes Here");
-            // Set our view from the "main" layout resource
+            //  Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
             try
