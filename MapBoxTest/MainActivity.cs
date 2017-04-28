@@ -17,7 +17,7 @@ namespace MapBoxTest
         protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            MapboxAccountManager.Start(this, "pk.eyJ1IjoiZmNjbWFuYWdlbWVudHNvZnR3YXJlIiwiYSI6ImNpb3BzMnR6ODAwNm50d2x6eWl4dTJsM3oifQ.NG-ngOgssSz0vL-yiFIRew");
+            MapboxAccountManager.Start(this, "MapBox Goes Here");
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
